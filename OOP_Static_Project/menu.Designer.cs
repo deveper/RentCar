@@ -35,6 +35,7 @@
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.lblUye = new System.Windows.Forms.LinkLabel();
+            this.metroCheckBox1 = new MetroFramework.Controls.MetroCheckBox();
             this.SuspendLayout();
             // 
             // btnGiris
@@ -147,11 +148,22 @@
             this.lblUye.Text = "Sign up";
             this.lblUye.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblUye_LinkClicked);
             // 
+            // metroCheckBox1
+            // 
+            this.metroCheckBox1.AutoSize = true;
+            this.metroCheckBox1.Location = new System.Drawing.Point(41, 217);
+            this.metroCheckBox1.Name = "metroCheckBox1";
+            this.metroCheckBox1.Size = new System.Drawing.Size(84, 15);
+            this.metroCheckBox1.TabIndex = 5;
+            this.metroCheckBox1.Text = "Remind Me";
+            this.metroCheckBox1.UseSelectable = true;
+            // 
             // menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(458, 241);
+            this.Controls.Add(this.metroCheckBox1);
             this.Controls.Add(this.lblUye);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
@@ -178,6 +190,7 @@
         private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private System.Windows.Forms.LinkLabel lblUye;
+        private MetroFramework.Controls.MetroCheckBox metroCheckBox1;
     }
 }
 

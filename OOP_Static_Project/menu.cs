@@ -54,6 +54,7 @@ namespace OOP_Static_Project
                 SignUp.temizle(this.Controls);
 
             }
+           
         }
     }
 }

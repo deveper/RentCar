@@ -32,14 +32,21 @@ namespace OOP_Static_Project
         }
         public static void temizle(Control.ControlCollection ctrl)
         {
-            foreach (Control item in ctrl)
+            foreach (Control a in ctrl)
             {
-                if (item is MetroTextBox)
+                if (a is MetroTextBox)
                 {
-                    MetroTextBox mtb = (MetroTextBox)item;
+                    MetroTextBox mtb = (MetroTextBox)a;
                     mtb.Clear();
                 }
+                //if (a is MetroTile)
+                //{
+                //    MetroTile mt = (MetroTile)a; sevdeyle deneme
+                //    mt.Text =" ";
+                //}
+                
             }
+           
         }
 
         private void btnFormClose_Click(object sender, EventArgs e)

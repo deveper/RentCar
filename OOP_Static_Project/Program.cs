@@ -16,7 +16,7 @@ namespace OOP_Static_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new menu());
+            Application.Run(new MainMenu());
         }
     }
 }
