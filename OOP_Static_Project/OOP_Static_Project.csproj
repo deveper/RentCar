@@ -55,6 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="center.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +113,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\v3.jpg" />
     <None Include="images\polo.jpg" />
     <None Include="images\Opel-Astra-K-Sports-Tourer-facelift-2019.jpg" />
     <None Include="images\merco.jpg" />

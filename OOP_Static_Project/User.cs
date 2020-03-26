@@ -11,7 +11,9 @@ namespace OOP_Static_Project
         public User()
         {
             this.CreatedDate = DateTime.Now;
+            this.Id = new Guid();
         }
+        public Guid Id { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
         public string Name { get; set; }

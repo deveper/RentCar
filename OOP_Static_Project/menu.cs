@@ -23,7 +23,7 @@ namespace OOP_Static_Project
 
         private void menu_Load(object sender, EventArgs e)
         {
-   
+            users.Add(new User {UserName="admin",LastName="x",Name="x",Password="123"});
         }
 
         private void lblUye_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -41,7 +41,7 @@ namespace OOP_Static_Project
 
         private void btnGiris_Click(object sender, EventArgs e)
         {
-            if (users.Exists(x => x.UserName == txtGiris.Text) && users.Exists(x => x.Password == txtSifre.Text))
+            if (users.Exists(x => x.UserName == txtGiris.Text) && users.Exists(x => x.Password == txtSifre.Text))//linq metodu kullandık.
             {
                 MetroMessageBox.Show(this,"Başarılı Giriş Yaptınız...");
                 this.Hide();
